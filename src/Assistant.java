@@ -17,7 +17,7 @@ public class Assistant extends Member {
     SetEducation(education);
 
     double Object_Class_Membership_Degree = Database.Membership_Degree(education,Database.Fuzzy_Terms_Education_Domain,this.Fuzzy_Terms_Education_Range,Database.Similarity_Matrix_Education_Domain);
-    for (int i=0;i<18;i++)
+    for (int i=0; i < 18; i++)
       MembershipToClasses[i] = Database.Minimum(Object_Class_Membership_Degree , Database.Similarity_Matrix_for_Classes[5][i]);
   }
 
