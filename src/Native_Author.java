@@ -25,7 +25,7 @@ public class Native_Author extends Author {
   }
 
   public static void main(String[] args) {
-    Native_Author NA = new Native_Author("�a�r� INCE","Young","Tall,Short","Ankara");
+    Native_Author NA = new Native_Author("Kim Karusmaki","Young","Tall,Short","Ankara");
     NA.Print_Author();
   }
 }
