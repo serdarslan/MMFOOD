@@ -25,7 +25,7 @@ public class Foreign_Author extends Author {
   }
 
   public static void main(String[] args) {
-    Foreign_Author NA = new Foreign_Author("�a�r� INCE","Young","Tall,Short","Italian");
+    Foreign_Author NA = new Foreign_Author("Ingrad Bergman","Young","Tall,Short","Italian");
     NA.Print();
   }
 }
