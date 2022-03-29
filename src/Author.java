@@ -63,7 +63,7 @@ public class Author {
   }
 
   public static void main(String[] args) {
-    Author A = new Author("Hilal INCE","45","[Tall,Short,Medium]");
+    Author A = new Author("Serdar Arslan","45","[Tall,Short,Medium]");
     A.Print();
   }
 }
